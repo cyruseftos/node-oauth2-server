@@ -572,10 +572,10 @@ describe('TokenHandler integration', function() {
           }
         });
         var request = new Request({
-	  body: { grant_type: 'password'},
-	  headers: { 'authorization': util.format('Basic %s', new Buffer('blah:').toString('base64')) },
-	  method: {},
-	  query: {}
+          body: { grant_type: 'password' },
+          headers: { 'authorization': util.format('Basic %s', new Buffer('blah:').toString('base64')) },
+          method: {},
+          query: {}
         });
 
         return handler.getClient(request)
