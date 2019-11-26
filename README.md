@@ -1,3 +1,7 @@
+# This project is seeking maintainers and reviewers 
+
+## This is a popular project in need of maintenance, we currently have a complete typescript rewrite open in [#564]( https://github.com/oauthjs/node-oauth2-server/pull/564), please help contribute to the review of this branch and/or please contact @thomseddon on GitHub if you are interested in assisting with maintaining this project.
+
 # oauth2-server
 
 [![npm Version][npm-image]][npm-url]
